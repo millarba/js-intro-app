@@ -11,7 +11,7 @@
     <% (1..10).to_a.each do |number| %>
       <div class="box col-md-3 col-md-offset-1" onclick="add(<%= number %>)"><%= number %></div>
     <% end %>
-    <div class="box col-md-3 col-md-offset-5" onclick="add('Reset')">Reset</div>
+    <div class="box col-md-3 col-md-offset-5" onclick="reset()">Reset</div>
   </div>
   
 </div>
